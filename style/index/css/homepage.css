@@ -1,0 +1,48 @@
+.container{
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+
+.navbar{
+	position: relative;
+	height: 80px;
+	margin-bottom: 0;
+}
+
+.navbar-header{
+	width:82%;
+	height: 80px;
+	margin-right: 0;
+	margin-left: 0;
+	position: absolute;
+}
+
+.navbar-default{
+	background-color: #fff;
+	border-color: #eee;
+}
+
+.navbar-brand{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	width: 390px;
+	height: 50px;
+}
+
+.navbar-form{
+	margin-top:0;
+	margin-bottom: 0;
+	position: relative;
+	width: 30%;
+	box-shadow: 0 1px 0 rgba(255,255,255,.1);
+	padding-top: 22.5px;
+	padding-bottom: 22.5px;
+	float: right!important;
+}
+
+.navbar-collapse{
+	height:80px!important;
+}
