@@ -6,7 +6,8 @@
     <link href="<?php echo base_url() . 'style/index/' ?>css/bootstrap.css" rel="stylesheet" />
     <link href="<?php echo base_url() . 'style/index/' ?>css/homepage.css" rel="stylesheet" />
     <link href="<?php echo base_url() . 'style/index/' ?>css/common.css" rel="stylesheet" />
-
+    <script src="<?php echo base_url() . 'style/index/' ?>js/jquery.min.js"></script>
+    <script src="<?php echo base_url() . 'style/index/' ?>js/bootstrap.js"></script>
 
 </head> 
 <body>
@@ -39,17 +40,60 @@
         </div>
     </nav>
     <nav class="nav nav-main" id="navMain">
-        <ul class="container" ng-controller="NavCtrl">
-            <li ng-repeat="name in names" >
-                <a herf="" ng-bind="name"></a>
+        <ul class="container">
+            <li >
+                <a herf="">首页</a>
             </li>
+            <li>
+                <a href="">新闻通知</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">研究所概况 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">SMC-SJTU实验室</a></li>
+                <li><a href="#">电梯检测中心</a></li>
+                <li><a href="#">远程监控及智能维护中心</a></li>
+                <li><a href="#">研究所历史</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">科研团队 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">教师</a></li>
+                <li><a href="#">工程师</a></li>
+                <li><a href="#">学生</a></li>
+                <li><a href="#">访问学者</a></li>
+                <li><a href="#">MI照片墙</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">研究项目 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">科研方向</a></li>
+                <li><a href="#">论文出版</a></li>
+                <li><a href="#">在研项目</a></li>
+                <li><a href="#">合作单位</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">影响力 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">知识产权</a></li>
+                <li><a href="#">成果展示</a></li>
+                <li><a href="#">产业化服务</a></li>
+                <li><a href="#">公益活动</a></li>
+              </ul>
+            </li>
+
         </ul>
     </nav>
     <div class="header">
         
     </div>
 
+
+
+
 </body>
-    <script src="<?php echo base_url() . 'style/index/' ?>js/angular-1.3.0.js"></script>
-    <script src="<?php echo base_url() . 'style/index/' ?>js/homepage.js"></script>
+
 </html>

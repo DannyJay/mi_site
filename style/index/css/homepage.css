@@ -62,8 +62,9 @@
 	border: none;
 }
 
+
 .nav-main{
-	background: #28828A;
+	background: #00B4B4;
 	border-top: 0;
 	position: relative;
 	height: 36px;
@@ -75,7 +76,7 @@
 	float: left;
 	margin-right: 20px;
 	vertical-align: baseline;
-	font-family: 'WenQuanYi Micro Hei';
+	font-family: 'Microsoft YaHei';
 }
 
 .nav-main li a{
@@ -83,15 +84,31 @@
 	display: block;
 	font-size: 16px;
 	line-height: 36px;
-	width: 96px;
+	width: 116px;
 	text-align: center;
+	text-decoration: none;
 }
 
 .nav-main li a:hover{
-	background: #00B4B4;
+	background: #009595;
 	text-decoration: none;
 	cursor: pointer;
 }
+
+.dropdown li a{
+	font-size: 14px;
+	line-height: 38px;
+	font-size: 14px;
+	width:200px;
+	color: #fff;
+	padding: 0 0 0 15px;
+	text-align: left;
+}
+
+.dropdown li a:hover{
+	background: #006464;
+}
+
 
 .header{
 	background: url('../images/1.jpg') 50% 50%;
