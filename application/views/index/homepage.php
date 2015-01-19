@@ -87,10 +87,60 @@
 
         </ul>
     </nav>
-    <div class="header">
-        
+    <div>
+        <div class="header">
+            
+        </div>
+        <div class="main-wrap">
+            <section class="news">
+                <h3 class="title-a">
+                    <a href="#" class="more" target="_blank">更多 &gt;</a>
+                    头条新闻
+                </h3>
+                <ul class="newslist">
+                    <li>
+                        <div class="tag">
+                            <span>09</span>
+                            2015.01
+                        </div>
+                        <div class="label-news">
+                            <h3>
+                                <a href="" target="_blank">2015国家科技奖揭晓 交大荣获国家自然科学奖一等奖</a>
+                            </h3>
+                            <p>1月9日上午，2015年度国家科学技术奖励大会在北京人民大会堂隆重举行。上海交通大学20项优秀科技成果获得2015年度国家科学技术奖励......
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tag">
+                            <span>09</span>
+                            2015.01
+                        </div>
+                        <div class="label-news">
+                            <h3>
+                                <a href="" target="_blank">2015国家科技奖揭晓 交大荣获国家自然科学奖一等奖</a>
+                            </h3>
+                            <p>1月9日上午，2015年度国家科学技术奖励大会在北京人民大会堂隆重举行。上海交通大学20项优秀科技成果获得2015年度国家科学技术奖励......
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tag">
+                            <span>09</span>
+                            2015.01
+                        </div>
+                        <div class="label-news">
+                            <h3>
+                                <a href="" target="_blank">2015国家科技奖揭晓 交大荣获国家自然科学奖一等奖</a>
+                            </h3>
+                            <p>1月9日上午，2015年度国家科学技术奖励大会在北京人民大会堂隆重举行。上海交通大学20项优秀科技成果获得2015年度国家科学技术奖励......
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </div>
-
 
 
 
